@@ -1,0 +1,10 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: Averta, sans-serif;
+}
+p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+@media screen and (max-width: 1440px) and (min-width: 900px){
+    
+}
