@@ -63,7 +63,10 @@ p {
         background-color: white;
         border: 1px solid #e7332b;
     }
-
+    .ind:focus {
+        border: 2px solid black;
+        border-radius: 3px;
+    }
     .ind2 {
         font-size: 16px;
         padding: 12px 25px;
@@ -77,16 +80,31 @@ p {
         background-color: #e7332b;
         border: 1px solid #e7332b;
     }
+    .ind2:focus {
+        border: 2px solid black;
+        border-radius: 3px;
+    }
 
     .two {
-        height: 50vh;
+        height: 45vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .cater {
+        text-align:center;
+        margin-top: 12%;
+    }
+    .cat {
+        padding: 5px;
     }
 
     .three {
         display: flex;
-        background-image: url("zuri landing/right_yz6hn3.png");
+        /* background-image: url("zuri landing/right_yz6hn3.png");
         background-size: 400px;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat; */
         margin: 0 15px;
     }
 
@@ -97,7 +115,7 @@ p {
         margin: 15px;
         padding-bottom: 5%;
         padding-left: 3%;
-        padding-top: 3%;
+        padding-top: 5%;
         padding-right: 3%;
     }
 
@@ -105,12 +123,23 @@ p {
         margin-bottom: 15%;
         /* font-family: Averta, sans-serif; */
     }
-
+    .back {
+        position: absolute;
+        display: flex;
+        width: 110%;
+        justify-content:space-between;
+        top: 162%;
+    }
+    .back-img {
+        z-index: -1;
+    }
     .foot {
+        margin: 20% 2% 10% 2%;
+        justify-content:space-between;
+    }
+    .footOne {
         display: flex;
         justify-content: space-between;
-        margin-top: 20%;
-        margin-bottom: 10%;
     }
 
     .last {
@@ -121,6 +150,7 @@ p {
         width: 15px;
         margin: 5px;
     }
+    
 }
 
 @media screen and (max-width: 991px) and (min-width: 300px) {}
