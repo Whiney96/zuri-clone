@@ -63,10 +63,12 @@ p {
         background-color: white;
         border: 1px solid #e7332b;
     }
+
     .ind:focus {
         border: 2px solid black;
         border-radius: 3px;
     }
+
     .ind2 {
         font-size: 16px;
         padding: 12px 25px;
@@ -80,6 +82,7 @@ p {
         background-color: #e7332b;
         border: 1px solid #e7332b;
     }
+
     .ind2:focus {
         border: 2px solid black;
         border-radius: 3px;
@@ -90,12 +93,14 @@ p {
         width: 100%;
         display: flex;
         justify-content: center;
-        
+
     }
+
     .cater {
-        text-align:center;
+        text-align: center;
         margin-top: 12%;
     }
+
     .cat {
         padding: 5px;
     }
@@ -123,20 +128,24 @@ p {
         margin-bottom: 15%;
         /* font-family: Averta, sans-serif; */
     }
+
     .back {
         position: absolute;
         display: flex;
         width: 110%;
-        justify-content:space-between;
+        justify-content: space-between;
         top: 162%;
     }
+
     .back-img {
         z-index: -1;
     }
+
     .foot {
         margin: 20% 2% 10% 2%;
-        justify-content:space-between;
+        justify-content: space-between;
     }
+
     .footOne {
         display: flex;
         justify-content: space-between;
@@ -150,38 +159,44 @@ p {
         width: 15px;
         margin: 5px;
     }
+
     /* second page: New.html */
-    .nav{
+    .nav {
         background-color: #FFFDF5;
-        position:fixed;
+        position: fixed;
         display: flex;
         justify-content: space-between;
         width: 100%;
         padding: 2%;
     }
+
     .navOne {
         display: flex;
         width: 60%;
         font-size: 18px;
         justify-content: space-evenly;
     }
+
     .basic {
         padding-top: 5%;
         font-size: 18px;
     }
+
     .line {
         width: 6%;
         position: absolute;
         right: 38%;
         bottom: 30%;
     }
+
     .lady1 {
         width: 38%;
         position: absolute;
-        z-index: -1;
+        z-index: -2;
         top: 50%;
         left: 5%;
     }
+
     .male1 {
         width: 23%;
         position: absolute;
@@ -189,6 +204,7 @@ p {
         top: 45%;
         right: 5%;
     }
+
     .enroll {
         color: white;
         background-color: #e7332b;
@@ -199,37 +215,61 @@ p {
         font-size: 18px;
         border-radius: 50px;
     }
+
     .face {
         width: 4%;
         position: absolute;
         top: 93%;
         left: 31%;
+        z-index: -1;
     }
+
     .wire {
         position: absolute;
         right: 40%;
+        z-index: -1;
     }
+
     .firstText {
         padding-top: 15%;
         text-align: center;
-        padding-bottom: 10%;
+        padding-bottom: 12%;
     }
+
     .second {
-        background-color: #FFFDF5;
+        display: flex;
+        font-size: 24px;
+        padding: 4%;
+        justify-content: space-evenly;
+    }
+
+    .sec2 {
+        width: 50%;
+        margin: 0 10%;
+    }
+
+    .sec3 {
+        text-align: right;
+    }
+
+    .third {
+    }
+    .train {
         display: flex;
     }
-    .third {
-        background-color: #FFFDF5;
-    }
+
     .fifth {
         background-color: #e7332b;
     }
+
     .sixth {
         background-color: #FFFDF5;
     }
+
     .seventh {
         background-color: #FFFDF5;
     }
+
     /* third page: exp.html */
     .nav-a {
         position: fixed;
