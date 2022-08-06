@@ -150,6 +150,7 @@ p {
         width: 15px;
         margin: 5px;
     }
+    /* second page: New.html */
     .nav{
         background-color: #FFFDF5;
         position:fixed;
@@ -160,18 +161,58 @@ p {
     }
     .navOne {
         display: flex;
-        justify-content: space-between;  
+        width: 60%;
+        font-size: 18px;
+        justify-content: space-evenly;
     }
-    .first {
-        display: flex;
-        padding: 25% 5% 1% 5%;
-        background-color: #FFFDF5;
+    .basic {
+        padding-top: 5%;
+        font-size: 18px;
+    }
+    .line {
+        width: 6%;
+        position: absolute;
+        right: 38%;
+        bottom: 30%;
     }
     .lady1 {
-        width: 45%;
+        width: 38%;
+        position: absolute;
+        z-index: -1;
+        top: 50%;
+        left: 5%;
+    }
+    .male1 {
+        width: 23%;
+        position: absolute;
+        z-index: -1;
+        top: 45%;
+        right: 5%;
+    }
+    .enroll {
+        color: white;
+        background-color: #e7332b;
+        border: none;
+        width: 12.5%;
+        margin-top: 3%;
+        padding: 1%;
+        font-size: 18px;
+        border-radius: 50px;
+    }
+    .face {
+        width: 4%;
+        position: absolute;
+        top: 93%;
+        left: 31%;
+    }
+    .wire {
+        position: absolute;
+        right: 40%;
     }
     .firstText {
+        padding-top: 15%;
         text-align: center;
+        padding-bottom: 10%;
     }
     .second {
         background-color: #FFFDF5;
@@ -189,6 +230,7 @@ p {
     .seventh {
         background-color: #FFFDF5;
     }
+    /* third page: exp.html */
     .nav-a {
         position: fixed;
         display: flex;
