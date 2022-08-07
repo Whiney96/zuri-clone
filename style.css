@@ -107,9 +107,6 @@ p {
 
     .three {
         display: flex;
-        /* background-image: url("zuri landing/right_yz6hn3.png");
-        background-size: 400px;
-        background-repeat: no-repeat; */
         margin: 0 15px;
     }
 
@@ -230,6 +227,13 @@ p {
         z-index: -1;
     }
 
+    .wire2 {
+        position: absolute;
+        z-index: -1;
+        top: 170%;
+        left: 27%;
+    }
+
     .firstText {
         padding-top: 15%;
         text-align: center;
@@ -241,6 +245,7 @@ p {
         font-size: 24px;
         padding: 4%;
         justify-content: space-evenly;
+        margin-left: 2%;
     }
 
     .sec2 {
@@ -253,11 +258,29 @@ p {
     }
 
     .third {
-    }
-    .train {
-        display: flex;
+        margin: 10% 15% 4% 6%;
+        justify-content: space-between;
     }
 
+    .train {
+        width: 65%;
+        line-height: 52px;
+    }
+    .train2 {
+        position: absolute;
+        z-index: -1;
+        top: 187%;
+        left: 66%;
+    }
+    .fourth {
+        margin: 5%;
+    }
+    .firstGrid {
+        display: flex;
+    }
+    .secGrid {
+        display: flex;
+    }
     .fifth {
         background-color: #e7332b;
     }
