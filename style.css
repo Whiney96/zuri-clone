@@ -281,6 +281,9 @@ p {
     .secGrid {
         display: flex;
     }
+    .curve {
+        width: 40%;
+    }
     .fifth {
         background-color: #e7332b;
     }
