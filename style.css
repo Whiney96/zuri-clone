@@ -276,6 +276,7 @@ p {
         display: flex;
         align-items: center;
         justify-content: center;
+        margin: 2%;
     }
     .curve {
         width: 40%;
@@ -290,6 +291,14 @@ p {
         width: 30%;
         margin: 1%;
         border-radius: 3%;
+    }
+    .cur22 {
+        padding: 3%;
+        box-shadow: rgba(231, 51, 43, 0.1) 0px 11px 22px 0px;
+        width: 30%;
+        margin: 1%;
+        border-radius: 3%;
+        margin-top: 3%;
     }
     .innerCur2 {
         padding: 7%;
