@@ -273,7 +273,8 @@ p {
         left: 66%;
     }
     .fourth {
-        margin: 5%;
+        /* margin: 5%; */
+        /* height: 150vh; */
     }
     .firstGrid {
         display: flex;
@@ -283,6 +284,19 @@ p {
     }
     .curve {
         width: 40%;
+    }
+    .cur {
+        position: absolute;
+        visibility: hidden;
+    }
+    .cur2 {
+        padding: 3%;
+        box-shadow: rgba(231, 51, 43, 0.1) 0px 11px 22px 0px;
+        width: 30%;
+        margin: 1%;
+    }
+    .innerCur2 {
+        padding: 5%;
     }
     .fifth {
         background-color: #e7332b;
