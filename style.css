@@ -314,8 +314,20 @@ p {
     }
     .fifth {
         background-color: #e7332b;
+        display: flex;
+        padding: 10% 5%;
+        margin-top: 10%;
     }
-
+    .text {
+        color: white;
+    }
+    .sec5image {
+        width: 110%;
+    }
+    .dot {
+        position: absolute;
+        visibility: hidden;
+    }
     .sixth {
         background-color: #FFFDF5;
     }
