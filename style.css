@@ -272,15 +272,10 @@ p {
         top: 187%;
         left: 66%;
     }
-    .fourth {
-        /* margin: 5%; */
-        /* height: 150vh; */
-    }
-    .firstGrid {
+    .firstGrid, .secGrid{
         display: flex;
-    }
-    .secGrid {
-        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .curve {
         width: 40%;
@@ -294,9 +289,11 @@ p {
         box-shadow: rgba(231, 51, 43, 0.1) 0px 11px 22px 0px;
         width: 30%;
         margin: 1%;
+        border-radius: 3%;
     }
     .innerCur2 {
-        padding: 5%;
+        padding: 7%;
+        margin-right: 5%;
     }
     .fifth {
         background-color: #e7332b;
