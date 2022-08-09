@@ -266,25 +266,31 @@ p {
         width: 65%;
         line-height: 52px;
     }
+
     .train2 {
         position: absolute;
         z-index: -1;
         top: 187%;
         left: 66%;
     }
-    .firstGrid, .secGrid{
+
+    .firstGrid,
+    .secGrid {
         display: flex;
         align-items: center;
         justify-content: center;
         margin: 2%;
     }
+
     .curve {
         width: 35%;
     }
+
     .cur {
         display: flex;
-        justify-content:flex-end;
+        justify-content: flex-end;
     }
+
     .cur2 {
         padding: 0 0% 3% 3%;
         box-shadow: rgba(231, 51, 43, 0.1) 0px 11px 22px 0px;
@@ -292,6 +298,7 @@ p {
         margin: 1%;
         border-radius: 3%;
     }
+
     .cur22 {
         padding: 0 0% 3% 3%;
         box-shadow: rgba(231, 51, 43, 0.1) 0px 11px 22px 0px;
@@ -300,34 +307,81 @@ p {
         border-radius: 3%;
         margin-top: 3%;
     }
+
     .innerCur2 {
         padding: 5%;
         margin-right: 5%;
     }
+
     .innerCur22 {
         padding: 6.5%;
         margin-right: 5%;
     }
+
     .innerCur23 {
         padding: 3.8%;
         margin-right: 5%;
     }
+
     .fifth {
         background-color: #e7332b;
         display: flex;
-        padding: 10% 5%;
+        padding: 8% 5%;
         margin-top: 10%;
     }
+
     .text {
         color: white;
+        padding-top: 5%;
+        padding-left: 2.5%;
+        width: 40%;
     }
+
+    .enroll2 {
+        color: #e7332b;
+        background-color: white;
+        border: none;
+        width: 35%;
+        margin-top: 8%;
+        padding: 2%;
+        font-size: 18px;
+        border-radius: 71px;
+        box-shadow:  rgba(0, 0, 0, 0.2) 0px 3px 1px -2px,
+         rgba(0, 0, 0, 0.14) 0px 2px 2px 0px,
+          rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+    }
+
     .sec5image {
-        width: 110%;
+        width: 60%;
     }
+    .icons {
+        margin: 8% 0 20% 0;
+        width: 108%;
+    }
+    .icons1, .icons2 {
+        display: flex;
+    }
+    .iconS {
+        display: flex;
+        background-color: #e7332b;
+        border: 2px solid white;
+        width: 50%;
+        color: white;
+        font-size: 20px;
+        margin: 5% 5% 0 0;
+        align-items: center;
+        padding: 2%;
+        border-radius: 71px;
+    }
+
     .dot {
         position: absolute;
-        visibility: hidden;
     }
+    .dotWire {
+        position: absolute;
+        left: 28%;  
+    }
+
     .sixth {
         background-color: #FFFDF5;
     }
