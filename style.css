@@ -326,7 +326,7 @@ p {
     .fifth {
         background-color: #e7332b;
         display: flex;
-        padding: 8% 5%;
+        padding: 8% 5% 6.5% 5%;
         margin-top: 10%;
     }
 
@@ -376,6 +376,8 @@ p {
 
     .dot {
         position: absolute;
+        top: 530%;
+        left: 3%;
     }
     .dotWire {
         position: absolute;
